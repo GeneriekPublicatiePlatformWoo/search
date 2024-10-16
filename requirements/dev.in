@@ -1,0 +1,13 @@
+-c ci.txt
+-r ci.txt
+
+# Helpers
+bump2version
+gitpython
+
+# Debug tooling
+django-debug-toolbar
+
+# Documentation
+sphinx
+sphinx_rtd_theme

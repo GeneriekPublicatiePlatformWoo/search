@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-16 12:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: woo_search/accounts/models.py:19
+msgid "username"
+msgstr ""
+
+#: woo_search/accounts/models.py:23
+msgid "Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only."
+msgstr ""
+
+#: woo_search/accounts/models.py:27
+msgid "A user with that username already exists."
+msgstr ""
+
+#: woo_search/accounts/models.py:30
+msgid "first name"
+msgstr ""
+
+#: woo_search/accounts/models.py:31
+msgid "last name"
+msgstr ""
+
+#: woo_search/accounts/models.py:32
+msgid "email address"
+msgstr ""
+
+#: woo_search/accounts/models.py:34
+msgid "staff status"
+msgstr ""
+
+#: woo_search/accounts/models.py:36
+msgid "Designates whether the user can log into this admin site."
+msgstr ""
+
+#: woo_search/accounts/models.py:39
+msgid "active"
+msgstr ""
+
+#: woo_search/accounts/models.py:42
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr ""
+
+#: woo_search/accounts/models.py:46
+msgid "date joined"
+msgstr ""
+
+#: woo_search/accounts/models.py:54
+msgid "user"
+msgstr ""
+
+#: woo_search/accounts/models.py:55
+msgid "users"
+msgstr ""
+
+#: woo_search/accounts/utils.py:23
+msgid "You need to be superuser to create other superusers."
+msgstr ""
+
+#: woo_search/accounts/utils.py:49
+msgid "You cannot create or update a user with more permissions than yourself."
+msgstr ""
+
+#: woo_search/logging/admin.py:52
+msgid "full log message"
+msgstr ""
+
+#: woo_search/logging/admin.py:56
+msgid "message"
+msgstr ""
+
+#: woo_search/logging/admin.py:59
+msgid "(no message)"
+msgstr ""
+
+#: woo_search/logging/admin.py:61
+msgid "event"
+msgstr ""
+
+#: woo_search/logging/admin.py:64
+msgid "Unknown"
+msgstr ""
+
+#: woo_search/logging/admin.py:67
+msgid "acting user"
+msgstr ""
+
+#: woo_search/logging/admin.py:71
+#, python-brace-format
+msgid "{name} ({identifier})"
+msgstr ""
+
+#: woo_search/logging/admin.py:73
+#, python-brace-format
+msgid "{name} ({identifier}, local user ID: {django_id})"
+msgstr ""
+
+#: woo_search/logging/admin.py:81
+msgid "affected object"
+msgstr ""
+
+#: woo_search/logging/constants.py:7
+msgid "Record created"
+msgstr ""
+
+#: woo_search/logging/constants.py:8
+msgid "Record read"
+msgstr ""
+
+#: woo_search/logging/constants.py:9
+msgid "Record updated"
+msgstr ""
+
+#: woo_search/logging/constants.py:10
+msgid "Record deleted"
+msgstr ""
+
+#: woo_search/logging/models.py:41
+msgid "(audit) log entry"
+msgstr ""
+
+#: woo_search/logging/models.py:42
+msgid "(audit) log entries"
+msgstr ""
+
+#: woo_search/logging/templates/logging/message.txt:1
+msgid "Anonymous user"
+msgstr ""
+
+#: woo_search/logging/templates/logging/message.txt:1
+msgid "(object not set)"
+msgstr ""
+
+#: woo_search/logging/templates/logging/message.txt:1
+#, python-format
+msgid "%(timestamp)s | %(user)s | <code>%(event)s</code>: %(object)s."
+msgstr ""
+
+#: woo_search/templates/admin/base_site.html:5
+#: woo_search/templates/admin/base_site.html:23
+#: woo_search/templates/index.html:80
+msgid "Administration"
+msgstr ""
+
+#: woo_search/templates/admin/base_site.html:38
+msgid "View site"
+msgstr ""
+
+#: woo_search/templates/admin/base_site.html:44
+msgid "Account security"
+msgstr ""
+
+#: woo_search/templates/admin/base_site.html:47
+msgid "Change password"
+msgstr ""
+
+#: woo_search/templates/admin/base_site.html:52
+msgid "Log out"
+msgstr ""
+
+#: woo_search/templates/hijack/contrib/admin/button.html:6
+msgid "hijack"
+msgstr ""
+
+#: woo_search/templates/hijack/contrib/admin/button.html:8
+#, python-format
+msgid "Hijack %(username)s"
+msgstr ""
+
+#: woo_search/templates/includes/footer.html:14
+#, python-format
+msgid ""
+"Developed by %(website_link)s<br> within the %(opengem_link)s &copy; 2024<br>"
+msgstr ""
+
+#: woo_search/templates/includes/footer.html:26
+msgid "Documentation"
+msgstr ""
+
+#: woo_search/templates/includes/footer.html:31
+msgid "Docker image"
+msgstr ""
+
+#: woo_search/templates/includes/footer.html:36
+msgid "Code on Github"
+msgstr ""
+
+#: woo_search/templates/includes/footer.html:43
+msgid "Other"
+msgstr ""
+
+#: woo_search/templates/includes/footer.html:46
+#, python-format
+msgid "Report %(issues_link)s for questions, bugs or wishes"
+msgstr ""
+
+#: woo_search/templates/includes/footer.html:49
+#, python-format
+msgid "Read more on %(cg_link)s"
+msgstr ""
+
+#: woo_search/templates/index.html:10
+msgid "WOO Search API"
+msgstr ""
+
+#: woo_search/templates/index.html:13
+msgid "Search index and JSON-based API for published WOO documents."
+msgstr ""
+
+#: woo_search/templates/index.html:69
+msgid "API docs (ReDoc)"
+msgstr ""
+
+#: woo_search/templates/index.html:73
+msgid "Open API specification"
+msgstr ""
+
+#: woo_search/templates/maykin_2fa/login.html:13
+msgid "or"
+msgstr ""
+
+#: woo_search/templates/maykin_2fa/login.html:15
+msgid "Login with organization account"
+msgstr ""
+
+#: woo_search/templates/maykin_2fa/login.html:23
+msgid "Contact support"
+msgstr ""
+
+#: woo_search/urls.py:12 woo_search/urls.py:13 woo_search/conf/base.py:48
+msgid "WOO Search"
+msgstr ""
+
+#: woo_search/urls.py:14
+msgid "WOO Search dashboard"
+msgstr ""
+
+#: woo_search/utils/management/commands/clear_cache.py:10
+msgid "Clear given cache only"
+msgstr ""
+
+#: woo_search/utils/templates/utils/includes/version_info.html:4
+#, python-format
+msgid "version %(RELEASE)s"
+msgstr ""
+
+#: woo_search/utils/templates/utils/includes/version_info.html:8
+#, python-format
+msgid "GIT SHA: %(GIT_SHA)s"
+msgstr ""

@@ -1,0 +1,11 @@
+# Pure python dependencies
+
+# Django packages
+django-axes[ipware]
+django-capture-tag
+django-hijack
+django-rosetta
+django-timeline-logger
+
+# DRF & other API tooling
+open-api-framework

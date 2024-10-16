@@ -1,0 +1,46 @@
+# Template
+# /_os_app
+# /_os_api
+# /os_generic/
+
+# Developers
+.hg
+.git
+.svn
+.idea/
+.vscode/
+.sass-cache/
+*.db
+*.pyc
+__pycache__
+*~
+*.mo
+
+# Javascript libraries
+/node_modules/
+
+# Generated files
+/docs/_build
+/docs/developers/_assets/db_schema.*
+
+# Coverage reports
+/reports/
+/htmlcov/
+.coverage
+
+# Environment
+#/deployment/app.*.yml
+#/deployment/hosts.*
+local.py
+/env/
+/venv/
+/media/
+/static/
+/mail/
+/log/*.log*
+/log/nginx/*.log*
+/.env
+
+# Static files
+src/woo_search/static/bundles/
+src/woo_search/fonts/

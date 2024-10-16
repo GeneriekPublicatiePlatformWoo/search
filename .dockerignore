@@ -1,0 +1,21 @@
+node_modules
+Dockerfile*
+docker-compose*
+.dockerignore
+.git
+.vscode
+env/
+local.py
+/docs/
+/docker/
+
+/htmlcov
+.coverage
+# tests and test assets
+src/**/tests/**
+
+src/woo_search/static/bundles
+/log/
+/static/
+/media/
+/private_media/
